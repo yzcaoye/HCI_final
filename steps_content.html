@@ -71,18 +71,21 @@ option = {
 
     xAxis : [
         {
+            name: 'Time',
             type : 'category',
             boundaryGap : false,
-            data : ['0','4','8','12','16','20','24','Time'] 
+            data : ['0','4','8','12','16','20','24'] 
         }
     ],
     yAxis : [
-        {
+        {   
+            name: "Steps",
             type : 'value',
             scale: true,
             axisLabel : {
                 formatter: '{value}' 
             }
+
         }
     ],
 
@@ -92,11 +95,11 @@ option = {
             type:'line',
             data: [ 0, 0, 110,  230, 320, 550, 600 ],
 
-            markLine : {
-                data : [
-                    {type : 'average', name: 'Average'}
-                ]
-            }
+            // markLine : {
+            //     data : [
+            //         {type : 'average', name: 'Average'}
+            //     ]
+            // }
         }
     ]
 };
