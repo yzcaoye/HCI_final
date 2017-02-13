@@ -1,7 +1,7 @@
-div
+/**div
 {
   display: inline-block;
-}
+}**/
 
 .background
 {
@@ -39,10 +39,15 @@ div
 .display4
 {
   margin-left:-5px;
-  margin-top:-20px;
+  margin-top:-20px; 
+  
   width:700px;
   height:150px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;       /* the same as your div height */
   background:#C7EDC7;
+  
 }
 
 .display5
@@ -86,7 +91,7 @@ ul {
 }
 
 li a {
-  margin-bottom:10px;
+    margin-bottom:10px;
     display: block;
     color: #000;
     padding: 8px 8px;
@@ -100,4 +105,21 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
+}
+
+#TitleBar{
+  width:8002px;
+  height:150px;
+  text-align: center;
+  vertical-align: middle;
+   line-height: 150px;  */  
+  background:red;
+}
+
+#HomeIcon{
+  width:200px;
+  height:150px;
+  margin-left:10px;
+  /**background:#C7EDC7;**/
+
 }
