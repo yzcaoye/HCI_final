@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Steps</title>
+    <title>Physical Measure</title>
     <link rel = "stylesheet" href="stepPage.css">
   </head>
   <body>
@@ -25,11 +25,11 @@
       <!-- Side Bar Section-->
         <div class="mainSection" id="SideBar">
 		<ul>
-		  <li><a href="physical_frame.html"; style="font-size:17px">Physical Measure</a></li>
-		  <li><a href="steps_frame.html">Steps</a></li>
+		  <li><a style="background-color: #66ffc2; font-size:17px" href="physical_frame.html">Physical Measure</a></li>
+		  <li><a  href="steps_frame.html">Steps</a></li>
  		  <li><a href="404.html">Regular Goal</a></li>
 		  <li><a href="404.html">Search</a></li>
-		  <li><a style="background-color: #66ffc2";href="location_frame.html">Location</a></li>
+		  <li><a href="location_frame.html">Location</a></li>
 		</ul>
         </div>
         
@@ -38,8 +38,8 @@
       
       <!-- Main Content Section-->
       <div class="mainSection" id="Content">
-      <iframe src="GoogleMap.html"; style='width: 800px; height:450px; margin-left:0px;'>      </iframe>
-      <button type="button" id="share_my_location" onclick="confirmShareLoc()">Share Location</button>
+      <iframe src="physical_content.html"; style='width: 800px; height:450px; margin-left:0px;'>      </iframe>
+      
       <!--<iframe src="steps_content.html"; style='width: 785px; height:510px; margin-bottom:-50px;'></iframe>-->
       
       </div>
@@ -47,21 +47,6 @@
     
     
   </div>
- 
-<script>
-function confirmShareLoc() {	
-	var txt;
-    var r =  confirm("Do you want to send the location information to family members?");
-    if (r == true) {
-        var confirmed =  alert("Shared Successfully");
-     } else {
-        txt = "You pressed Cancel!";
-    }  
-}
-
-
-</script>
- 
    
   </body>
 </html>
