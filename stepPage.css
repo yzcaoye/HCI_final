@@ -14,7 +14,23 @@
 	float: left;
 }
 
-
+#share_my_location{
+	/*position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;*/
+	
+	
+  position: absolute;
+  top: 560px;
+  left: 800px;
+  width: 10%;
+  height: 10%;
+  z-index: 10;
+  background-color: #00B2FF; /*dim the background*/
+	}
 #background
 {
   /*background: linear-gradient(#d6d6d6, #61644f);*/
