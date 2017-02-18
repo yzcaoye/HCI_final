@@ -2,6 +2,20 @@
   <head>
     <title>Steps</title>
     <link rel = "stylesheet" href="stepPage.css">
+    <script>
+    function onImg(x) {
+      x.style.height = "140px";
+      x.style.width = "143px";
+     
+    }
+
+    function leaveImg(x) {
+      x.style.height = "120px";
+      x.style.width = "123px";
+      
+    }
+
+    </script>
   </head>
   <body>
     <div id="background">
@@ -11,7 +25,12 @@
        <div id="TopBar">         
          <div class="TopBarElement" id="HomeIconSection" >
          <a href="index.html">
-         <img  id="HomeIcon" src="home.png" title="Back to home page"  ></img></a>
+      
+            <img  id="HomeIcon" onmouseover="onImg(this)" onmouseout="leaveImg(this)" src="home.png" title="Back to home page"  >
+              
+            </img>
+          
+         </a>
          </div>
           
          <div class="TopBarElement" id="TitleBar" >
